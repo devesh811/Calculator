@@ -1,0 +1,61 @@
+*****************************************************************************
+Roman Numeral Calulator 
+
+===================
+
+Date:	        Aug 15, 2016      
+Base Label:     ROMAN_NUMERAL_CALCULATOR_1.0
+Author:    	Devesh Chipade
+
+*****************************************************************************
+
+SUMMARY
+===============
+
+A. General Application Notes
+
+    1. The application in this release consists of two featrues: 
+	**Addition of Roman Numerals
+	**Subtraction of Roman Numerals
+		
+B. Directory structure
+	
+	Calculator
+	├── Makefile
+	├── README
+ 	├── src
+	│   ├── roman_calculator.c
+	│   └── roman_calculator.h
+	└── tests
+    	    └── check_calculator.c	
+	
+			
+C. Environment Information
+    
+    1. Linux Distribution - Ubuntu (16.04)
+		            Kernel (4.4.0-31)
+
+    2. Programming Language - C
+   		          
+    3. Compiler - GNU GCC
+
+    4. Make Utility - GNU Make
+
+    5. Source control - Git
+
+    6. Unit Test - Check Framework
+
+
+D. Compilation steps
+		$ make
+
+E. Executing tests:		
+		$ ./check_calculator_tests 
+               
+		- A log file would be generated named calculator_test.log
+
+F. Github repo:
+		https://github.com/devesh811/Calculator.git
+
+*****************************************************************************
+   
